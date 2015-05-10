@@ -15,7 +15,7 @@ ob_start();
 <td></td>
 </tr>
 <?php
-$sql = 'SELECT `dj` FROM `on_air`';
+/*$sql = 'SELECT `dj` FROM `on_air`';
 $result = mysqli_query($con, $sql);
 if(mysqli_num_rows($result)>0){
    while($row = mysqli_fetch_array($result)){
@@ -24,7 +24,8 @@ $dj = $row['dj'];
 }
 else{
     echo mysqli_error($con);
-}
+}*/
+$dj = mysqli_real_escape_string($con, $_GET['dj']);
 if(!empty($dj)){
     $sql = 'SELECT * FROM `tracks` WHERE `dj`="'.$dj.'" ORDER BY `artist`';
     $result = mysqli_query($con, $sql);
