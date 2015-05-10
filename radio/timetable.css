@@ -1,0 +1,46 @@
+* {
+margin:0;
+padding:0;
+}
+
+table {
+padding:15px;
+text-align:center;
+border-color:#5C8B94;
+border-collapse:collapse;
+font-family:arial, helvetica, sans-serif;
+background:#FFF!important;
+}
+
+tr {
+padding-bottom:15px;
+margin-bottom:15px;
+}
+
+tr:first-child, td:first-child {
+font-weight:bold;
+font-size:14px;
+color:#5C8B94;
+}
+
+td {
+min-width:100px;
+}
+
+td.timezone {
+background:#5C8B94;
+}
+
+td.timezone a:link, td.timezone a:visited, td.timezone a:active  {
+color:#FFF;
+text-decoration:none;
+}
+
+td.timezone a:hover {
+text-decoration:underline;
+}
+
+td.now {
+background: #F00;
+color: white;
+}

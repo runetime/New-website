@@ -1,0 +1,198 @@
+*
+{
+margin:0px;
+padding:0px;
+}
+
+.top_menu
+{
+display: inline-block;
+position:fixed;
+height:50px;
+width:100%;
+background-image:url('../RuneTime/images/head.png');
+}
+
+.top_logo
+{
+display: inline-block;
+margin-left:5px;
+margin-top:4px;
+height:42px;
+width:169px;
+background-image:url('../RuneTime/images/logo.png');
+float:left;
+margin-right:20px;
+}
+
+.top_nav
+{
+height:50px;
+width:100%;
+}
+
+.top_nav_ul
+{
+height:50px;
+width:30px;
+float:left;
+}
+
+.top_nav_li
+{
+display: inline-block;
+font-family: arial;
+text-decoration:none;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+cursor: default;
+color:white;
+height:50px;
+width:30px;
+line-height:50px;
+font-size:120%;
+text-align:center;
+}
+
+#top_nav_ul li
+{
+width:70px;
+height:47px;
+}
+
+#top_nav_ul li:hover
+{
+background-image:url('../RuneTime/images/button.png');
+border-bottom:3px solid #2991b8;
+}
+
+a
+{
+text-decoration:none;
+color:white;
+}
+
+.login
+{
+display: inline-block;
+font-family: arial;
+text-decoration:none;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+cursor: default;
+color:#848484;
+height:50px;
+width:30px;
+line-height:50px;
+float:right;
+font-size:120%;
+text-align:center;
+}
+
+.signup
+{
+display: inline-block;
+font-family: arial;
+text-decoration:none;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+cursor: default;
+color:#848484;
+height:50px;
+width:30px;
+line-height:50px;
+float:right;
+font-size:120%;
+text-align:center;
+}
+
+.main_page
+{
+background-image:url('../RuneTime/images/background.png');
+width:100%;
+height:100%;
+}
+
+.main_page_middle
+{
+background-color:#424242;
+width:70%;
+height:100%;
+margin-left:5%;
+float:left;
+}
+
+#main_page_line
+{
+background-image:url('../RuneTime/images/craig.png');
+width:3px;
+height:100%;
+float:right;
+}
+
+.main_page_right
+{
+background-color:#424242;
+width:20%;
+color:white;
+margin-right:5%;
+height:100%;
+float:right;
+}
+
+#main_title
+{
+text-align:center;
+margin: 100px 0 50px 0;
+font-size:230%;
+color:White;
+}
+
+.main_radio_middle
+{
+background-color:#424242;
+width:75%;
+margin-left: 12.5%;
+height:100%;
+float:left;
+}
+#ping {
+position:absolute;
+left:20%;
+top:8%;
+z-index:1;
+}
+
+#pong {
+position:absolute;
+right:19%;
+top:8%;
+z-index:1;
+}
+
+
+div#buttons p {
+display: inline;
+float:left;
+margin-left:15%;
+background-color:#F00;
+border:2px solid black;
+border-radius:15px;
+padding:15px;
+}
+
+#player_preview {
+margin: 90px auto 70px auto;
+}
