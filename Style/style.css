@@ -195,22 +195,38 @@ margin: 90px auto 70px auto;
 
 .admin_button
 {
-width:200px;
-height:200px;
+width:250px;
+height:150px;
+font-size:80%;
 background-color:grey;
 border-radius:5px;
 color:black;
 text-align:center;
-line-height:200px;
+line-height:150px;
 padding:5px;
 float:left;
 margin-right:5px;
 margin-left:5px;
+margin-top:10px;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+cursor: default;
 }
 
 .admin_button:hover
 {
 background-color:#BCBCBC;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+cursor: default;
 }
 
 #admin_panel_text
@@ -227,6 +243,7 @@ margin-bottom:10px;
 #admin_username_input
 {
 width:210px;
+height:30px;
 }
 
 #admin_panel_submit

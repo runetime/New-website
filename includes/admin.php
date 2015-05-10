@@ -11,19 +11,39 @@
 	</div>
 	</center>
 
+	
 	<div class='admin_button'>
 	Ban user
 	</div>
 	
 	<div class='admin_button'>
+	IP ban
+	</div>
+	
+	<div class='admin_button'>
+	Forum ban
+	</div>
+	
+	<div class='admin_button'>
+	Chat ban
+	</div>
+	
+	<div class='admin_button'>
 	Mute user
 	</div>
-
-<center>
-	<div id='admin_panel_submit'>
-	<input type="submit">
+	
+	<div class='admin_button'>
+	Change roll
 	</div>
-</center>
+	
+	<div class='admin_button'>
+	Remove posts
+	</div>
+
+	<div class='admin_button'>
+	Reset password
+	</div>
+	
 			</div>
 		</div>
 	</div>
