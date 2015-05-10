@@ -55,7 +55,7 @@ for($i = 0; $i <= 23; $i++){
         if(mysqli_num_rows($result)>0){
         while($row = mysqli_fetch_array($result)){
             if($_SESSION['logged_in']==1&&empty($row['dj'])){ 
-                echo '<a href="book.php?time='.$id.'&dj='.$_SESSION['username'].'">-</a>';
+                echo '<a href="book.php?time='.$id.'&dj='.$_SESSION['username'].'">---</a>';
             }
             elseif($_SESSION['logged_in']==1&&$row['dj']==$_SESSION['username']){
                  echo '<a href="book.php?time='.$id.'&dj='.$_SESSION['username'].'">DJ '.$row['dj'].'</a>';
