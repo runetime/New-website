@@ -5,7 +5,9 @@
 <body>
 
 
-
+<?php
+	include 'includes/navigation.php';
+	?>
 	
 <?php
 	include 'includes/homepage.php';
