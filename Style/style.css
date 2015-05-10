@@ -184,10 +184,7 @@ text-align:center;
 line-height:50px;
 }
 
-.button:hover
-{
-background-image:url('../images/head_transparent.png');
-}
+
 
 #player_preview {
 margin: 90px auto 70px auto;
