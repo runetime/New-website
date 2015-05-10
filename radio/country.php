@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST['country'])){
-    $time = 5;
+    $time = 60*60*24*30;
     $country = $_POST['country'];
     $notembedded = array('CA', 'US');
     if(in_array($country, $notembedded)){
