@@ -50,8 +50,8 @@ function timetable(url) {
   });
 </script>
 <div id="buttons">
-<a href=""><div class='button'>DJ Playlist</div></a>
-<a href=""><div class='button'>Request Song/Shoutout</div></a>
+<a href=""><div class='button'>DJ Playlist/Requests</div></a>
+<a href=""><div class='button'>Request Shoutout</div></a>
 <a href=""><div class='button'>Song History</div></a>
 <a href="JavaScript:timetable('http://mazzor.com/Test/Radio/timetable.php');"><div class='button'>DJ Timetable</div></a>
 </div>
