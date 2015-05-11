@@ -3,36 +3,36 @@
 		</div>
 		<div class='top_nav'>
 			<ul id='top_nav_ul'>
+				<a href='#'>
 				<li class='top_nav_li'>
-					<a href='#'>
 						Home
-					</a>
 				</li>
+				</a>
+				<a href='#'>
 				<li class='top_nav_li'>
-					<a href='#'>
 						Radio
-					</a>
 				</li>
+				</a>
+				<a href='#'>
 				<li class='top_nav_li'>
-					<a href='#'>
 						Forums
-					</a>
 				</li>
+				</a>
+				<a href='#'>
 				<li class='top_nav_li'>
-					<a href='#'>
 						Tools
-					</a>
 				</li>
+				</a>
+				<a href='#'>
 				<li class='login'>
-					<a href='#'>
 						Login
-					</a>
 				</li>
+				</a>
+				<a href='#'>
 				<li class='signup'>
-					<a href='#'>
 						Sign-up
-					</a>
 				</li>
+				</a>
 			</ul>
 		</div>
 	</div>

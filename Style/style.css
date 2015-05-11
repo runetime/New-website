@@ -69,6 +69,7 @@ height:47px;
 {
 background-image:url(../images/button.png);
 border-bottom:3px solid #2991b8;
+cursor: pointer;
 }
 
 a
@@ -276,6 +277,14 @@ margin-top:10px;
 {
 width:25%;
 border-bottom:1px solid white;
+}
+
+#songlist td:last-child
+{
+border-bottom:none;
+background:none;
+text-align:left;
+margin-left:10px;
 }
 
 .songlist_title
