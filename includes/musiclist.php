@@ -9,7 +9,7 @@
 						<td class='songlist_title'>Song</td>						
 						<td class='songlist_title'>Artist</td>
 						<td class='songlist_title'>Album</td>
-						<td class='songlist_title'>Request</td>
+						<td class='songlist_title'></td>
 					</tr>
 					<tr>					
 						<td>We will rock you</td>						
